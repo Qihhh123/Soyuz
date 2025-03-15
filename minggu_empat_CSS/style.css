@@ -1,0 +1,22 @@
+h1{
+    color: blue;
+    font-size: 50px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h2:hover{
+    color: green;
+}
+
+#warna:hover::placeholder{
+    color: blueviolet; 
+}
+
+p:hover::after{
+    content: " Eaa ";
+    color: red;
+}
